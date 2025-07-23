@@ -37,15 +37,15 @@ Monitor the deployment and you'll see the HPA provisioning new instances.
 
 Below are some example screenshots from the `screengrabs` folder showing the deployment, HPA scaling, and monitoring dashboards:
 
-### 1. Workload Deployment
+### 1. Pre-Ramp up graph
 
-![Deployment Screenshot](../screengrabs/deployment.png)
+![ramp up](screengrabs/pre-ramp-up-graph.png)
 
 ### 2. HPA Scaling
 
-![HPA Scaling Screenshot](../screengrabs/hpa-scaling.png)
+![HPA Scaling Screenshot](screengrabs/scale-up-event.png)
+![new pods](screengrabs/new-pods-registered.png)
 
 ### 3. Grafana Dashboard
 
-![Grafana Dashboard Screenshot](../screengrabs/grafana-dashboard.png)
-
+![Grafana Dashboard Screenshot](screengrabs/increased-metrics-monitoring.png)
